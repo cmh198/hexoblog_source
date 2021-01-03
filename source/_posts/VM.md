@@ -5,6 +5,7 @@ categories:
 - 컴퓨터 구조
 - Virtual Memory
 tags: 
+- 컴퓨터 구조
 - 가상 메모리
 - Virtual Memory
 ---
