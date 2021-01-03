@@ -1,5 +1,5 @@
 ---
-title: 마크다운 문법
+title: Cache
 categories: 
 - CS
 - 컴퓨터 구조
