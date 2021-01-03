@@ -1,5 +1,5 @@
 ---
-title: 가상 메모리
+title: Virtual Memory
 categories: 
 - CS
 - 컴퓨터 구조
