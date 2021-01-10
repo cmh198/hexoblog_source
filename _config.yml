@@ -114,3 +114,15 @@ feed:
   path: rss2.xml
   limit: 20
 
+sitemap:
+  path: sitemap.xml
+  tag: true
+  category: true
+
+robotstxt:
+  User-agent: "*"
+  Allow: /
+  Sitemap: https://cmh198.github.io/sitemap.xml
+
+
+
