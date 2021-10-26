@@ -32,14 +32,30 @@ ___
     - 초기 상태의 캐시는 비어있기 때문에 miss가 반드시 발생한다.(피할 수 없다)
 2. Capacity miss
 - Capacity가 부족해서 발생하는 miss
-    - 교체 정책을 통해 사용한지 오래된 데이터는 바꿔준다.
+    - 교체 정책(replacement policy)을 통해 사용한지 오래된 데이터는 바꿔준다.
 3. Conflict miss
 - Direct-mapped Cache에서 발생하는 miss이다. 
     - 두 데이터를 저장할 때 같은 index를 가리킨다면 어떤 데이터를 저장할지 컴퓨터는 모르기 때문에 발생한다.
     -> way가 부족해서 나타나는 현상이므로 way를 늘려준다.
 
-## Cache
+## Cache ABC's
+
+1. Associativity
+2. Block size
+3. Capacity
+
+## Cache의 특징
+- 하드웨어가 관리한다. 하드웨어가 miss한 data를 검색한다.
+- Hit latency: data를 hit 하는데 걸리는 시간, 일반적으로 L2,L3 Cache는 Hit latency가 길다.(miss rate를 줄이는데 중점을 두고 설계하였기 때문)
+- Miss rate = cache misses / cache accesses
+- Miss latency: 다음 level의 cache나 메모리로부터 fetch하는데 걸리는 시간
+
+- Cache의 성능을 개선시키려면 어떻게 해야할까?
+    - hit latency를 줄인다. -> Cache size를 작게 한다.
+    - miss rate를 줄인다. -> Cache size를 크게 한다.
+    - miss latency를 줄인다. -> 더 좋은 lower-level cache/memory를 사용한다.
 
 
-
-
+## Cache의 진화
+- 최근 CPU의 die photo를 보면, 전체 면적의 30~70%를 Cache가 차지한다. 이러한 이유는 Processor와 Ram간의 성능 차이가 점점 커지는 것을 보완하기 위해 그 사이에 위치한 Cache를 늘리는 것이다.
+![Die Photo](https://user-images.githubusercontent.com/29699750/107242496-626a9b80-6a6f-11eb-89bf-14f011eaa9d6.png)

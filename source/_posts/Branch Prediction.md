@@ -11,8 +11,9 @@ tags:
 
 ## Branch Prediction
 - Branch할 곳을 미리 예측하여 instruction을 미리 가져옴.
-
 ```
 add $t0 $s1 $s2
 
 ```
+
+- test
