@@ -37,4 +37,4 @@ tags:
 
 # 관련 서적
 
-[아주 작은 습관]
+![아주 작은 습관](/images/1_atomic_habits.png)
