@@ -38,3 +38,4 @@ tags:
 # 관련 서적
 
 ![아주 작은 습관](/images/1_atomic_habits.png)
+![딥 워크](/images/1_deepwork.png)
