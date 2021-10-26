@@ -1,7 +1,6 @@
 ---
 title: 1년 넘게 하루에 12시간 공부한 방법
 categories: 
-- 도서
 - 자기개발
 
 tags: 
