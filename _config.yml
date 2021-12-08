@@ -7,14 +7,14 @@ title: CMH's BLOG
 subtitle: '-dev C MH'
 description: '일어나 개발해야지'
 keywords: programming, c++, computer architecture, cs
-email: ezspl@ajou.ac.kr
+email: sprcmh198@gmail.com
 author: CMH
 language: ko
 timezone: 'Asia/Seoul'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://cmh198.github.io
+url: https://cmh198.tech
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -124,5 +124,7 @@ robotstxt:
   Allow: /
   Sitemap: https://cmh198.github.io/sitemap.xml
 
+plugins:
+  - hexo-generator-cname
 
 
