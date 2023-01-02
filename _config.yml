@@ -14,7 +14,7 @@ timezone: 'Asia/Seoul'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://cmh198.tech
+url: https://cmh198.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
